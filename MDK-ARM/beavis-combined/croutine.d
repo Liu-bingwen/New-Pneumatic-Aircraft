@@ -1,0 +1,14 @@
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+beavis-combined\croutine.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+beavis-combined\croutine.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+beavis-combined\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+beavis-combined\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

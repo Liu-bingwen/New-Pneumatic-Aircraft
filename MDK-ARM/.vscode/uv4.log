@@ -1,0 +1,47 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin'
+Build target 'beavis-combined'
+Note: source file '../Core/Src/system_stm32f4xx.c' - object file renamed from 'beavis-combined\system_stm32f4xx.o' to 'beavis-combined\system_stm32f4xx_1.o'.Note: source file '../Middlewares/Third_Party/FreeRTOS/Source/tasks.c' - object file renamed from 'beavis-combined\tasks.o' to 'beavis-combined\tasks_1.o'.compiling StableControl.c...
+../Core/Inc/PID.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/StableControl.h(10): warning:  #1295-D: Deprecated declaration get_sensor_data - give arg types
+  void get_sensor_data();
+../Core/Inc/StableControl.h(11): warning:  #1295-D: Deprecated declaration compute_motor_thrust - give arg types
+  void compute_motor_thrust();
+../Core/Inc/StableControl.h(12): warning:  #1295-D: Deprecated declaration apply_motor_thrust - give arg types
+  void apply_motor_thrust();
+..\Core\Src\StableControl.c(188): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      velocity_z += ((ac_accel.z + 9.7936 - 0.1) * dt);
+..\Core\Src\StableControl.c(202): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      lastValue = alpha * newValue + (1 - alpha) * lastValue;
+..\Core\Src\StableControl.c(241): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          motor_thrust[i] = motor_thrust[i] / 0.262;
+..\Core\Src\StableControl.c(320): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(printmessage, "commandQueue 初始化失败\n");
+..\Core\Src\StableControl.c(321): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          HAL_UART_Transmit(&huart1, printmessage, strlen(printmessage), 1000);
+..\Core\Src\StableControl.c(362): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          sprintf(printmessage,"%d,%d,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f\n",ac_pmw3901.deltaX,ac_pmw3901.deltaY,ac_z,ac_accel.x * dt,ac_accel.y * dt,((ac_accel.z + 9.7936 - 0.1) * dt),ac_gyro.z,ac_gyro.z * dt,pid_ax.Kp,pid_ax.Ki,pid_ax.Kd);
+..\Core\Src\StableControl.c(362): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(printmessage,"%d,%d,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f\n",ac_pmw3901.deltaX,ac_pmw3901.deltaY,ac_z,ac_accel.x * dt,ac_accel.y * dt,((ac_accel.z + 9.7936 - 0.1) * dt),ac_gyro.z,ac_gyro.z * dt,pid_ax.Kp,pid_ax.Ki,pid_ax.Kd);
+..\Core\Src\StableControl.c(365): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          HAL_UART_Transmit_DMA(&huart1, printmessage, strlen(printmessage));
+..\Core\Src\StableControl.c(310): warning:  #177-D: variable "start_tick"  was declared but never referenced
+      TickType_t start_tick, end_tick;
+..\Core\Src\StableControl.c(310): warning:  #177-D: variable "end_tick"  was declared but never referenced
+      TickType_t start_tick, end_tick;
+..\Core\Src\StableControl.c(311): warning:  #177-D: variable "flight_task_start_time"  was declared but never referenced
+      TickType_t flight_task_start_time;
+..\Core\Src\StableControl.c(312): warning:  #177-D: variable "task_dt"  was declared but never referenced
+      TickType_t task_dt;
+..\Core\Src\StableControl.c(313): warning:  #177-D: variable "str1"  was declared but never referenced
+      char str1[20];
+..\Core\Src\StableControl.c(314): warning:  #177-D: variable "str2"  was declared but never referenced
+      char str2[20];
+..\Core\Src\StableControl.c(315): warning:  #177-D: variable "distance"  was declared but never referenced
+      float distance;
+..\Core\Src\StableControl.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=41534 RO-data=1126 RW-data=380 ZI-data=26892  
+FromELF: creating hex file...
+"beavis-combined\beavis-combined.axf" - 0 Error(s), 19 Warning(s).
+Build Time Elapsed:  00:00:02

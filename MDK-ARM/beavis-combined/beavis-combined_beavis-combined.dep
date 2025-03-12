@@ -1,0 +1,2193 @@
+Dependencies for Project 'beavis-combined', Target 'beavis-combined': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
+F (startup_stm32f405xx.s)(0x67CBEF24)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I ../Core/Inc-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 540" --pd "STM32F405xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f405xx.lst --xref -o beavis-combined\startup_stm32f405xx.o --depend beavis-combined\startup_stm32f405xx.d)
+F (..\Core\Src\bmi.c)(0x67CD29BD)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\bmi.o --omf_browse beavis-combined\bmi.crf --depend beavis-combined\bmi.d)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+F (..\Core\Src\pmw3901.c)(0x67CD1A04)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\pmw3901.o --omf_browse beavis-combined\pmw3901.crf --depend beavis-combined\pmw3901.d)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (..\Core\Src\vl53l1_platform.c)(0x676280C3)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\vl53l1_platform.o --omf_browse beavis-combined\vl53l1_platform.crf --depend beavis-combined\vl53l1_platform.d)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (..\Core\Src\VL53L1X_api.c)(0x6675543F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\vl53l1x_api.o --omf_browse beavis-combined\vl53l1x_api.crf --depend beavis-combined\vl53l1x_api.d)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (..\Drivers\BMI08x-Sensor-API-master\bmi08a.c)(0x66FA6515)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\bmi08a.o --omf_browse beavis-combined\bmi08a.crf --depend beavis-combined\bmi08a.d)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x.h)(0x66FA64FA)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+F (..\Drivers\BMI08x-Sensor-API-master\bmi08g.c)(0x66FA6513)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\bmi08g.o --omf_browse beavis-combined\bmi08g.crf --depend beavis-combined\bmi08g.d)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x.h)(0x66FA64FA)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+F (..\Drivers\BMI08x-Sensor-API-master\bmi085.c)(0x66738EC2)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\bmi085.o --omf_browse beavis-combined\bmi085.crf --depend beavis-combined\bmi085.d)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x.h)(0x66FA64FA)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi085.h)(0x66738EC2)
+F (..\Drivers\BMI08x-Sensor-API-master\bmi088.c)(0x66FA650A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\bmi088.o --omf_browse beavis-combined\bmi088.crf --depend beavis-combined\bmi088.d)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x.h)(0x66FA64FA)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (..\Drivers\BMI08x-Sensor-API-master\bmi088.h)(0x66FA650D)
+F (..\Core\Src\motor.c)(0x67CFE341)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\motor.o --omf_browse beavis-combined\motor.crf --depend beavis-combined\motor.d)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+F (.\control.c)(0x66F26AE9)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\control.o --omf_browse beavis-combined\control.crf --depend beavis-combined\control.d)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (.\tasks.c)(0x67CA7480)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\tasks.o --omf_browse beavis-combined\tasks.crf --depend beavis-combined\tasks.d)
+F (.\queueHandle.c)(0x67236CBD)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\queuehandle.o --omf_browse beavis-combined\queuehandle.crf --depend beavis-combined\queuehandle.d)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (..\Core\Src\PID.c)(0x672A0549)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\pid.o --omf_browse beavis-combined\pid.crf --depend beavis-combined\pid.d)
+I (../Core/Inc/PID.h)(0x670CD940)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (..\Core\Src\StableControl.c)(0x67CFE36F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stablecontrol.o --omf_browse beavis-combined\stablecontrol.crf --depend beavis-combined\stablecontrol.d)
+I (../Core/Inc/StableControl.h)(0x66F91690)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/PID.h)(0x670CD940)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (../Core/Inc/newton.h)(0x66FD2CE6)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+F (..\Core\Src\newton.c)(0x67CECF1C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\newton.o --omf_browse beavis-combined\newton.crf --depend beavis-combined\newton.d)
+I (../Core/Inc/newton.h)(0x66FD2CE6)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (../Core/Inc/StableControl.h)(0x66F91690)
+I (../Core/Inc/PID.h)(0x670CD940)
+F (.\pid_task.c)(0x67CAF9E0)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\pid_task.o --omf_browse beavis-combined\pid_task.crf --depend beavis-combined\pid_task.d)
+F (..\Core\Inc\pid_task.h)(0x67CAF9E6)()
+F (../Core/Src/main.c)(0x67CAF142)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\main.o --omf_browse beavis-combined\main.crf --depend beavis-combined\main.d)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6628EBCA)
+I (../Core/Inc/dma.h)(0x67CAF141)
+F (../Core/Src/gpio.c)(0x678757E4)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\gpio.o --omf_browse beavis-combined\gpio.crf --depend beavis-combined\gpio.d)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (../Core/Src/freertos.c)(0x67CA9191)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\freertos.o --omf_browse beavis-combined\freertos.crf --depend beavis-combined\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6628EBCA)
+I (../Core/Inc/StableControl.h)(0x66F91690)
+I (../Core/Inc/PID.h)(0x670CD940)
+I (../Core/Inc/newton.h)(0x66FD2CE6)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E3CC2)
+F (../Core/Src/dma.c)(0x67CAF141)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\dma.o --omf_browse beavis-combined\dma.crf --depend beavis-combined\dma.d)
+I (../Core/Inc/dma.h)(0x67CAF141)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (../Core/Src/i2c.c)(0x66CAE8EA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\i2c.o --omf_browse beavis-combined\i2c.crf --depend beavis-combined\i2c.d)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (../Core/Src/spi.c)(0x66CC2A3D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\spi.o --omf_browse beavis-combined\spi.crf --depend beavis-combined\spi.d)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (../Core/Src/tim.c)(0x67CBEF21)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\tim.o --omf_browse beavis-combined\tim.crf --depend beavis-combined\tim.d)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (../Core/Src/usart.c)(0x67CAF142)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\usart.o --omf_browse beavis-combined\usart.crf --depend beavis-combined\usart.d)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (../Core/Src/stm32f4xx_it.c)(0x67CAF142)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_it.o --omf_browse beavis-combined\stm32f4xx_it.crf --depend beavis-combined\stm32f4xx_it.d)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (../Core/Inc/stm32f4xx_it.h)(0x67CAF142)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x66CAE8EB)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_msp.o --omf_browse beavis-combined\stm32f4xx_hal_msp.crf --depend beavis-combined\stm32f4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x678757E6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+I (../Core/Inc/bmi.h)(0x66D9596F)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x.h)(0x66FA64FA)
+I (../Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h)(0x66738EC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (../Drivers/BMI08x-Sensor-API-master/bmi088.h)(0x66FA650D)
+I (../Core/Inc/i2c.h)(0x66CAE8EA)
+I (../Core/Inc/usart.h)(0x66CAE8EB)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Core/Inc/pmw3901.h)(0x672DC242)
+I (../Core/Inc/spi.h)(0x66CAE8EB)
+I (../Core/Inc/gpio.h)(0x66CAE8E9)
+I (../Core/Inc/VL53L1X_api.h)(0x6675543F)
+I (../Core/Inc/vl53l1_platform.h)(0x66D95986)
+I (../Core/Inc/tim.h)(0x66CAE8EB)
+I (../Core/Inc/motor.h)(0x6704E21F)
+I (../Core/Inc/tasks.h)(0x67CA7485)
+I (../Core/Inc/control.h)(0x66F120C8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Core/Inc/queueHandle.h)(0x67236A41)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+F (../Core/Src/stm32f4xx_hal_timebase_tim.c)(0x66CAE8EB)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_timebase_tim.o --omf_browse beavis-combined\stm32f4xx_hal_timebase_tim.crf --depend beavis-combined\stm32f4xx_hal_timebase_tim.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_rcc.o --omf_browse beavis-combined\stm32f4xx_hal_rcc.crf --depend beavis-combined\stm32f4xx_hal_rcc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_rcc_ex.o --omf_browse beavis-combined\stm32f4xx_hal_rcc_ex.crf --depend beavis-combined\stm32f4xx_hal_rcc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_flash.o --omf_browse beavis-combined\stm32f4xx_hal_flash.crf --depend beavis-combined\stm32f4xx_hal_flash.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_flash_ex.o --omf_browse beavis-combined\stm32f4xx_hal_flash_ex.crf --depend beavis-combined\stm32f4xx_hal_flash_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_flash_ramfunc.o --omf_browse beavis-combined\stm32f4xx_hal_flash_ramfunc.crf --depend beavis-combined\stm32f4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_gpio.o --omf_browse beavis-combined\stm32f4xx_hal_gpio.crf --depend beavis-combined\stm32f4xx_hal_gpio.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_dma_ex.o --omf_browse beavis-combined\stm32f4xx_hal_dma_ex.crf --depend beavis-combined\stm32f4xx_hal_dma_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_dma.o --omf_browse beavis-combined\stm32f4xx_hal_dma.crf --depend beavis-combined\stm32f4xx_hal_dma.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_pwr.o --omf_browse beavis-combined\stm32f4xx_hal_pwr.crf --depend beavis-combined\stm32f4xx_hal_pwr.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_pwr_ex.o --omf_browse beavis-combined\stm32f4xx_hal_pwr_ex.crf --depend beavis-combined\stm32f4xx_hal_pwr_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_cortex.o --omf_browse beavis-combined\stm32f4xx_hal_cortex.crf --depend beavis-combined\stm32f4xx_hal_cortex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal.o --omf_browse beavis-combined\stm32f4xx_hal.crf --depend beavis-combined\stm32f4xx_hal.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_exti.o --omf_browse beavis-combined\stm32f4xx_hal_exti.crf --depend beavis-combined\stm32f4xx_hal_exti.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_i2c.o --omf_browse beavis-combined\stm32f4xx_hal_i2c.crf --depend beavis-combined\stm32f4xx_hal_i2c.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_i2c_ex.o --omf_browse beavis-combined\stm32f4xx_hal_i2c_ex.crf --depend beavis-combined\stm32f4xx_hal_i2c_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_spi.o --omf_browse beavis-combined\stm32f4xx_hal_spi.crf --depend beavis-combined\stm32f4xx_hal_spi.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_tim.o --omf_browse beavis-combined\stm32f4xx_hal_tim.crf --depend beavis-combined\stm32f4xx_hal_tim.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_tim_ex.o --omf_browse beavis-combined\stm32f4xx_hal_tim_ex.crf --depend beavis-combined\stm32f4xx_hal_tim_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x6628EBC8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stm32f4xx_hal_uart.o --omf_browse beavis-combined\stm32f4xx_hal_uart.crf --depend beavis-combined\stm32f4xx_hal_uart.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Core/Src/system_stm32f4xx.c)(0x6628EBC6)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\system_stm32f4xx_1.o --omf_browse beavis-combined\system_stm32f4xx_1.crf --depend beavis-combined\system_stm32f4xx_1.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\croutine.o --omf_browse beavis-combined\croutine.crf --depend beavis-combined\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\event_groups.o --omf_browse beavis-combined\event_groups.crf --depend beavis-combined\event_groups.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\list.o --omf_browse beavis-combined\list.crf --depend beavis-combined\list.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\queue.o --omf_browse beavis-combined\queue.crf --depend beavis-combined\queue.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\stream_buffer.o --omf_browse beavis-combined\stream_buffer.crf --depend beavis-combined\stream_buffer.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\tasks_1.o --omf_browse beavis-combined\tasks_1.crf --depend beavis-combined\tasks_1.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\timers.o --omf_browse beavis-combined\timers.crf --depend beavis-combined\timers.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\cmsis_os2.o --omf_browse beavis-combined\cmsis_os2.crf --depend beavis-combined\cmsis_os2.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6628EBC8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h)(0x6628EBCA)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h)(0x6628EBC5)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6628EBC8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6628EBC5)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6628EBC8)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66CAE8EB)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6628EBC8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6628EBC8)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\heap_4.o --omf_browse beavis-combined\heap_4.crf --depend beavis-combined\heap_4.d)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c)(0x6628EBCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BMI08x-Sensor-API-master-I.\RTE\_beavis-combined-ID:\MDK-ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\MDK-ARM\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F405xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F405xx-o beavis-combined\port.o --omf_browse beavis-combined\port.crf --depend beavis-combined\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6628EBCA)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E3CC2)
+I (D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66FE8A9C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6628EBCA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6628EBCA)

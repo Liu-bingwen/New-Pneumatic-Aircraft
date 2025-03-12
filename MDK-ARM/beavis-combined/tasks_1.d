@@ -1,0 +1,16 @@
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+beavis-combined\tasks_1.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+beavis-combined\tasks_1.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+beavis-combined\tasks_1.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+beavis-combined\tasks_1.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+beavis-combined\tasks_1.o: ../Core/Inc/FreeRTOSConfig.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+beavis-combined\tasks_1.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h

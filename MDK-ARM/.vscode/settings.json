@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "freertos.h": "c",
+        "motor.h": "c",
+        "vl53l1x_api.h": "c",
+        "tasks.h": "c",
+        "usart.h": "c",
+        "control.h": "c",
+        "task.h": "c",
+        "pmw3901.h": "c",
+        "bmi.h": "c",
+        "cmsis_os.h": "c",
+        "gpio.h": "c",
+        "queuehandle.h": "c",
+        "queue.h": "c",
+        "pid.h": "c",
+        "stablecontrol.h": "c",
+        "bmi08x_defs.h": "c",
+        "bmi088.h": "c",
+        "newton.h": "c",
+        "bmi08x.h": "c",
+        "math.h": "c",
+        "semphr.h": "c",
+        "string.h": "c",
+        "i2c_mutex.h": "c",
+        "freertosconfig.h": "c",
+        "pid_task.h": "c"
+    }
+}

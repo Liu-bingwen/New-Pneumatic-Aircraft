@@ -1,0 +1,303 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Bingwen Liu, zjnu, LIC=Z3C6R-KCF1P-GQ50H-WLRZH-M63JW-A0Q2S
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.40.0.3
+Toolchain Path:  D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.18.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\BEAVIS\beavis-combined\MDK-ARM\beavis-combined.uvprojx
+Project File Date:  03/08/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin'
+Rebuild target 'beavis-combined'
+Note: source file '../Core/Src/system_stm32f4xx.c' - object file renamed from 'beavis-combined\system_stm32f4xx.o' to 'beavis-combined\system_stm32f4xx_1.o'.
+Note: source file '../Middlewares/Third_Party/FreeRTOS/Source/tasks.c' - object file renamed from 'beavis-combined\tasks.o' to 'beavis-combined\tasks_1.o'.
+assembling startup_stm32f405xx.s...
+compiling pid_task.c...
+compiling queueHandle.c...
+queueHandle.c(13): warning:  #1-D: last line of file ends without a newline
+  }
+queueHandle.c: 1 warning, 0 errors
+compiling tasks.c...
+compiling bmi085.c...
+compiling bmi088.c...
+compiling bmi08a.c...
+compiling bmi08g.c...
+compiling stm32f4xx_hal_timebase_tim.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling pmw3901.c...
+..\Core\Src\pmw3901.c(33): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(message, "Write Failed 1");
+..\Core\Src\pmw3901.c(34): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+..\Core\Src\pmw3901.c(37): warning:  #111-D: statement is unreachable
+  		return error;
+..\Core\Src\pmw3901.c(52): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(message, "CHIP_ID: %X\tLoop: %d", chipID, i);
+..\Core\Src\pmw3901.c(53): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+..\Core\Src\pmw3901.c(60): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(message, "CHIP_ID == 0x49 ID = %X\tLoop: %d", chipID, i);
+..\Core\Src\pmw3901.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+..\Core\Src\pmw3901.c(90): warning:  #940-D: missing return statement at end of non-void function "PMW3901_init" 
+  }
+..\Core\Src\pmw3901.c(142): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(message, "Write Failed");
+..\Core\Src\pmw3901.c(143): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, message, strlen(message), HAL_MAX_DELAY);
+..\Core\Src\pmw3901.c: 10 warnings, 0 errors
+compiling spi.c...
+compiling bmi.c...
+..\Core\Src\bmi.c(78): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(message1, "BMI088 Initialization Error\n");
+..\Core\Src\bmi.c(79): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, message1, strlen(message1), HAL_MAX_DELAY);
+..\Core\Src\bmi.c(92): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(message1, "BMI088 Soft Reset Error\n");
+..\Core\Src\bmi.c(93): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, message1, strlen(message1), HAL_MAX_DELAY);
+..\Core\Src\bmi.c(202): warning:  #1295-D: Deprecated declaration GetI2C - give arg types
+  extern void GetI2C();
+..\Core\Src\bmi.c(204): warning:  #1295-D: Deprecated declaration PutI2C - give arg types
+  extern void PutI2C();
+..\Core\Src\bmi.c(207): warning:  #177-D: variable "start_tick"  was declared but never referenced
+  	TickType_t start_tick, end_tick;
+..\Core\Src\bmi.c(207): warning:  #177-D: variable "end_tick"  was declared but never referenced
+  	TickType_t start_tick, end_tick;
+..\Core\Src\bmi.c: 8 warnings, 0 errors
+compiling stm32f4xx_hal_msp.c...
+compiling newton.c...
+../Core/Inc/PID.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/StableControl.h(10): warning:  #1295-D: Deprecated declaration get_sensor_data - give arg types
+  void get_sensor_data();
+../Core/Inc/StableControl.h(11): warning:  #1295-D: Deprecated declaration compute_motor_thrust - give arg types
+  void compute_motor_thrust();
+../Core/Inc/StableControl.h(12): warning:  #1295-D: Deprecated declaration apply_motor_thrust - give arg types
+  void apply_motor_thrust();
+..\Core\Src\newton.c: 4 warnings, 0 errors
+compiling motor.c...
+..\Core\Src\motor.c(131): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\motor.c: 1 warning, 0 errors
+compiling control.c...
+compiling vl53l1_platform.c...
+..\Core\Src\vl53l1_platform.c(65): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(amessage, "I2C Error, tmp = data = %X , ret = %d", *data, ret);
+..\Core\Src\vl53l1_platform.c(66): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		HAL_UART_Transmit(&huart1, amessage, strlen(amessage), 1000);
+..\Core\Src\vl53l1_platform.c(103): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(amessage, "I2C Multi Error ret = %d ", ret);
+..\Core\Src\vl53l1_platform.c(104): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		HAL_UART_Transmit(&huart1, amessage, strlen(amessage), 1000);
+..\Core\Src\vl53l1_platform.c(164): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(TOF_XSHUT_GPIO_Port, TOF_XSHUT_Pin, level);
+..\Core\Src\vl53l1_platform.c(171): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(amessage, "In XSHUT sensorStatus = %X,status = %X, error", sensorStatus, status);
+..\Core\Src\vl53l1_platform.c(172): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, amessage, strlen(amessage), 1000);
+..\Core\Src\vl53l1_platform.c(199): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(amessage, "Xshut error");
+..\Core\Src\vl53l1_platform.c(200): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, amessage, strlen(amessage), 1000);
+..\Core\Src\vl53l1_platform.c(204): warning:  #111-D: statement is unreachable
+  		return (status);
+..\Core\Src\vl53l1_platform.c(216): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(amessage, "VL53 Init failed in platform.c !\r\n");
+..\Core\Src\vl53l1_platform.c(217): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, amessage, strlen(amessage), HAL_MAX_DELAY);
+..\Core\Src\vl53l1_platform.c(220): warning:  #111-D: statement is unreachable
+  		return (1);
+..\Core\Src\vl53l1_platform.c(285): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(amessage, "else  status = %d", status);
+..\Core\Src\vl53l1_platform.c(286): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			HAL_UART_Transmit(&huart1, amessage, strlen(amessage), HAL_MAX_DELAY);
+..\Core\Src\vl53l1_platform.c(296): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(amessage, "dataReady =  && status = (!status)\r\n");
+..\Core\Src\vl53l1_platform.c(297): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		HAL_UART_Transmit(&huart1, amessage, strlen(amessage), HAL_MAX_DELAY);
+..\Core\Src\vl53l1_platform.c(338): warning:  #940-D: missing return statement at end of non-void function "vl53_read" 
+  }
+..\Core\Src\vl53l1_platform.c(339): warning:  #1295-D: Deprecated declaration GetI2C - give arg types
+  extern void GetI2C();
+..\Core\Src\vl53l1_platform.c(341): warning:  #1295-D: Deprecated declaration PutI2C - give arg types
+  extern void PutI2C();
+..\Core\Src\vl53l1_platform.c(368): warning:  #177-D: variable "execution_time"  was declared but never referenced
+  		TickType_t execution_time = end_tick - start_tick;
+..\Core\Src\vl53l1_platform.c: 21 warnings, 0 errors
+compiling dma.c...
+compiling freertos.c...
+../Core/Inc/PID.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/StableControl.h(10): warning:  #1295-D: Deprecated declaration get_sensor_data - give arg types
+  void get_sensor_data();
+../Core/Inc/StableControl.h(11): warning:  #1295-D: Deprecated declaration compute_motor_thrust - give arg types
+  void compute_motor_thrust();
+../Core/Inc/StableControl.h(12): warning:  #1295-D: Deprecated declaration apply_motor_thrust - give arg types
+  void apply_motor_thrust();
+../Core/Src/freertos.c: 4 warnings, 0 errors
+compiling tim.c...
+compiling gpio.c...
+compiling main.c...
+../Core/Src/main.c(129): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(Sprintmessage, "bmi088 initialized");
+../Core/Src/main.c(130): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      HAL_UART_Transmit(&huart1, Sprintmessage, strlen(Sprintmessage), 1000);
+../Core/Src/main.c(143): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+        sprintf(Sprintmessage, "pmw3901 initialized failed");
+../Core/Src/main.c(144): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+        HAL_UART_Transmit(&huart1, Sprintmessage, strlen(Sprintmessage), 1000);
+../Core/Src/main.c(151): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(Sprintmessage, "pmw3901 initialized");
+../Core/Src/main.c(152): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      HAL_UART_Transmit(&huart1, Sprintmessage, strlen(Sprintmessage), 1000);
+../Core/Src/main.c(163): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(Sprintmessage, "VL53L1 initialized");
+../Core/Src/main.c(164): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      HAL_UART_Transmit(&huart1, Sprintmessage, strlen(Sprintmessage), 1000);
+../Core/Src/main.c(173): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(Sprintmessage, "VL53L1 Start Ranging");
+../Core/Src/main.c(174): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      HAL_UART_Transmit(&huart1, Sprintmessage, strlen(Sprintmessage), 1000);
+../Core/Src/main.c(178): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+    sprintf(Sprintmessage, "Motors Initializing");
+../Core/Src/main.c(179): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+    HAL_UART_Transmit(&huart1, Sprintmessage, strlen(Sprintmessage), 1000);
+../Core/Src/main.c(186): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+    sprintf(Sprintmessage, "Motors and Semaphore Initialized");
+../Core/Src/main.c(187): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+    HAL_UART_Transmit(&huart1, Sprintmessage, strlen(Sprintmessage), 1000);
+../Core/Src/main.c: 14 warnings, 0 errors
+compiling StableControl.c...
+../Core/Inc/PID.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/StableControl.h(10): warning:  #1295-D: Deprecated declaration get_sensor_data - give arg types
+  void get_sensor_data();
+../Core/Inc/StableControl.h(11): warning:  #1295-D: Deprecated declaration compute_motor_thrust - give arg types
+  void compute_motor_thrust();
+../Core/Inc/StableControl.h(12): warning:  #1295-D: Deprecated declaration apply_motor_thrust - give arg types
+  void apply_motor_thrust();
+..\Core\Src\StableControl.c(188): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      velocity_z += ((ac_accel.z + 9.7936 - 0.1) * dt);
+..\Core\Src\StableControl.c(202): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      lastValue = alpha * newValue + (1 - alpha) * lastValue;
+..\Core\Src\StableControl.c(241): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          motor_thrust[i] = motor_thrust[i] / 0.262;
+..\Core\Src\StableControl.c(305): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(printmessage, "commandQueue ÂàùÂßãÂåñÂ§±Ë¥•\n");
+..\Core\Src\StableControl.c(306): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          HAL_UART_Transmit(&huart1, printmessage, strlen(printmessage), 1000);
+..\Core\Src\StableControl.c(347): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          sprintf(printmessage,"%d,%d,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f\n",ac_pmw3901.deltaX,ac_pmw3901.deltaY,ac_z,ac_accel.x * dt,ac_accel.y * dt,((ac_accel.z + 9.7936 - 0.1) * dt),ac_gyro.z,ac_gyro.z * dt,pid_ax.Kp,pid_ax.Ki,pid_ax.Kd);
+..\Core\Src\StableControl.c(347): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(printmessage,"%d,%d,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f\n",ac_pmw3901.deltaX,ac_pmw3901.deltaY,ac_z,ac_accel.x * dt,ac_accel.y * dt,((ac_accel.z + 9.7936 - 0.1) * dt),ac_gyro.z,ac_gyro.z * dt,pid_ax.Kp,pid_ax.Ki,pid_ax.Kd);
+..\Core\Src\StableControl.c(350): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          HAL_UART_Transmit_DMA(&huart1, printmessage, strlen(printmessage));
+..\Core\Src\StableControl.c(295): warning:  #177-D: variable "start_tick"  was declared but never referenced
+      TickType_t start_tick, end_tick;
+..\Core\Src\StableControl.c(295): warning:  #177-D: variable "end_tick"  was declared but never referenced
+      TickType_t start_tick, end_tick;
+..\Core\Src\StableControl.c(296): warning:  #177-D: variable "flight_task_start_time"  was declared but never referenced
+      TickType_t flight_task_start_time;
+..\Core\Src\StableControl.c(297): warning:  #177-D: variable "task_dt"  was declared but never referenced
+      TickType_t task_dt;
+..\Core\Src\StableControl.c(298): warning:  #177-D: variable "str1"  was declared but never referenced
+      char str1[20];
+..\Core\Src\StableControl.c(299): warning:  #177-D: variable "str2"  was declared but never referenced
+      char str2[20];
+..\Core\Src\StableControl.c(300): warning:  #177-D: variable "distance"  was declared but never referenced
+      float distance;
+..\Core\Src\StableControl.c: 19 warnings, 0 errors
+compiling i2c.c...
+compiling stm32f4xx_it.c...
+compiling usart.c...
+compiling VL53L1X_api.c...
+..\Core\Src\VL53L1X_api.c(535): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  	sprintf(bmessage,"BootState, tmp = %X,state = %X",tmp,*state);
+..\Core\Src\VL53L1X_api.c(536): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	HAL_UART_Transmit(&huart1, bmessage, strlen(bmessage), 1000);
+..\Core\Src\VL53L1X_api.c: 2 warnings, 0 errors
+compiling PID.c...
+../Core/Inc/PID.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\PID.c(148): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\PID.c: 2 warnings, 0 errors
+compiling croutine.c...
+compiling list.c...
+compiling event_groups.c...
+compiling heap_4.c...
+compiling stream_buffer.c...
+compiling queue.c...
+compiling timers.c...
+compiling tasks.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling port.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_i2c_ex.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_spi.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_i2c.c...
+compiling stm32f4xx_hal_tim.c...
+compiling cmsis_os2.c...
+linking...
+Program Size: Code=47158 RO-data=1270 RW-data=416 ZI-data=26888  
+FromELF: creating hex file...
+"beavis-combined\beavis-combined.axf" - 0 Error(s), 86 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_beavis-combined
+  D:/MDK-ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/MDK-ARM/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

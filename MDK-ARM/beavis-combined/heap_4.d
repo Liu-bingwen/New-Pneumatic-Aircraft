@@ -1,0 +1,13 @@
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+beavis-combined\heap_4.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+beavis-combined\heap_4.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+beavis-combined\heap_4.o: D:\MDK-ARM\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+beavis-combined\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+beavis-combined\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

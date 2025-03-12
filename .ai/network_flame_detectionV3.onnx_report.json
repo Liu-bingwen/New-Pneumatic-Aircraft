@@ -1,0 +1,4254 @@
+{
+    "_allocate_inputs": 4,
+    "_allocate_outputs": 4,
+    "cli_parameters": "analyze --target stm32f4 --name network -m D:/python_project/vision-main/torchvision/models/flame_detectionV3.onnx --compression high --verbosity 1 --allocate-inputs --allocate-outputs --workspace C:/Users/86945/AppData/Local/Temp/mxAI_workspace300198583980011331543120177196865 --output C:/Users/86945/.stm32cubemx/network_output",
+    "cli_version": {
+        "extra": "19894",
+        "major": 1,
+        "micro": 0,
+        "minor": 0
+    },
+    "cli_version_str": "1.0.0-19894",
+    "code_size": 0,
+    "compression": [],
+    "date_time": "2025-03-08T20:26:59+0800",
+    "error": 0,
+    "error_str": [],
+    "exec_cmd": "analyze",
+    "exec_duration": 0.0,
+    "hash": "0x26f1880a709acf9f484038f3dc5713af",
+    "inputs": [
+        "input"
+    ],
+    "layers": [
+        {
+            "c_id": [
+                137
+            ],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 589824,
+                "psize": 2359296,
+                "rom_size": 299008
+            },
+            "id": 138,
+            "inputs": [],
+            "name": "classifier_0_weight",
+            "original": "Gemm",
+            "type": "Placeholder"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 1024,
+                "psize": 4096,
+                "rom_size": 0
+            },
+            "id": 138,
+            "inputs": [],
+            "name": "classifier_0_bias",
+            "original": "Gemm",
+            "type": "Placeholder"
+        },
+        {
+            "c_id": [
+                140
+            ],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 2048,
+                "psize": 8192,
+                "rom_size": 8200
+            },
+            "id": 141,
+            "inputs": [],
+            "name": "classifier_3_weight",
+            "original": "Gemm",
+            "type": "Placeholder"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 2,
+                "psize": 8,
+                "rom_size": 0
+            },
+            "id": 141,
+            "inputs": [],
+            "name": "classifier_3_bias",
+            "original": "Gemm",
+            "type": "Placeholder"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 602112,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        224,
+                        224,
+                        3
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 0,
+            "inputs": [],
+            "name": "input",
+            "original": "",
+            "type": "Input"
+        },
+        {
+            "c_id": [
+                1
+            ],
+            "extras": {
+                "n_macc": 5419024,
+                "n_params": 448,
+                "psize": 1792,
+                "rom_output": {
+                    "c_size": 802816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        112,
+                        16,
+                        112
+                    ]
+                },
+                "rom_size": 1792
+            },
+            "id": 1,
+            "inputs": [
+                "input"
+            ],
+            "name": "_features_features_0_features_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                0,
+                2
+            ],
+            "extras": {
+                "n_macc": 602112,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 802816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        112,
+                        16,
+                        112
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 2,
+            "inputs": [
+                "_features_features_0_features_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_0_features_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                3
+            ],
+            "extras": {
+                "n_macc": 200704,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 802816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        112,
+                        16,
+                        112
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 3,
+            "inputs": [
+                "_features_features_0_features_0_0_Conv_output_0",
+                "_features_features_0_features_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_0_features_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                4
+            ],
+            "extras": {
+                "n_macc": 451600,
+                "n_params": 160,
+                "psize": 640,
+                "rom_output": {
+                    "c_size": 200704,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        56,
+                        16,
+                        56
+                    ]
+                },
+                "rom_size": 640
+            },
+            "id": 4,
+            "inputs": [
+                "_features_features_0_features_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_1_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                5
+            ],
+            "extras": {
+                "n_macc": 50176,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 200704,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        56,
+                        16,
+                        56
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 5,
+            "inputs": [
+                "_features_features_1_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_1_block_block_0_block_0_2_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                6
+            ],
+            "extras": {
+                "n_macc": 50176,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 64,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        16,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 6,
+            "inputs": [
+                "_features_features_1_block_block_0_block_0_2_Relu_output_0"
+            ],
+            "name": "_features_features_1_block_block_1_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                7
+            ],
+            "extras": {
+                "n_macc": 136,
+                "n_params": 136,
+                "psize": 544,
+                "rom_output": {
+                    "c_size": 32,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        8,
+                        1
+                    ]
+                },
+                "rom_size": 544
+            },
+            "id": 7,
+            "inputs": [
+                "_features_features_1_block_block_1_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_1_block_block_1_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                8
+            ],
+            "extras": {
+                "n_macc": 8,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 32,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        8,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 8,
+            "inputs": [
+                "_features_features_1_block_block_1_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_1_block_block_1_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                9
+            ],
+            "extras": {
+                "n_macc": 144,
+                "n_params": 144,
+                "psize": 576,
+                "rom_output": {
+                    "c_size": 64,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        16,
+                        1
+                    ]
+                },
+                "rom_size": 576
+            },
+            "id": 9,
+            "inputs": [
+                "_features_features_1_block_block_1_activation_Relu_output_0"
+            ],
+            "name": "_features_features_1_block_block_1_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                10
+            ],
+            "extras": {
+                "n_macc": 48,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 64,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        16,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 10,
+            "inputs": [
+                "_features_features_1_block_block_1_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_1_block_block_1_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                11
+            ],
+            "extras": {
+                "n_macc": 16,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 200704,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        56,
+                        16,
+                        56
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 11,
+            "inputs": [
+                "_features_features_1_block_block_1_scale_activation_HardSigmoid_output_0",
+                "_features_features_1_block_block_0_block_0_2_Relu_output_0"
+            ],
+            "name": "_features_features_1_block_block_1_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                12
+            ],
+            "extras": {
+                "n_macc": 802832,
+                "n_params": 272,
+                "psize": 1088,
+                "rom_output": {
+                    "c_size": 200704,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        56,
+                        16,
+                        56
+                    ]
+                },
+                "rom_size": 1088
+            },
+            "id": 12,
+            "inputs": [
+                "_features_features_1_block_block_1_Mul_output_0"
+            ],
+            "name": "_features_features_1_block_block_2_block_2_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                13
+            ],
+            "extras": {
+                "n_macc": 3612744,
+                "n_params": 1224,
+                "psize": 4896,
+                "rom_output": {
+                    "c_size": 903168,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        56,
+                        72,
+                        56
+                    ]
+                },
+                "rom_size": 4896
+            },
+            "id": 13,
+            "inputs": [
+                "_features_features_1_block_block_2_block_2_0_Conv_output_0"
+            ],
+            "name": "_features_features_2_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                14
+            ],
+            "extras": {
+                "n_macc": 225792,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 903168,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        56,
+                        72,
+                        56
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 14,
+            "inputs": [
+                "_features_features_2_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_2_block_block_0_block_0_2_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                15
+            ],
+            "extras": {
+                "n_macc": 508104,
+                "n_params": 720,
+                "psize": 2880,
+                "rom_output": {
+                    "c_size": 225792,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        72,
+                        28
+                    ]
+                },
+                "rom_size": 2880
+            },
+            "id": 15,
+            "inputs": [
+                "_features_features_2_block_block_0_block_0_2_Relu_output_0"
+            ],
+            "name": "_features_features_2_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                16
+            ],
+            "extras": {
+                "n_macc": 56448,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 225792,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        72,
+                        28
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 16,
+            "inputs": [
+                "_features_features_2_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_2_block_block_1_block_1_2_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                17
+            ],
+            "extras": {
+                "n_macc": 1354776,
+                "n_params": 1752,
+                "psize": 7008,
+                "rom_output": {
+                    "c_size": 75264,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        24,
+                        28
+                    ]
+                },
+                "rom_size": 7008
+            },
+            "id": 17,
+            "inputs": [
+                "_features_features_2_block_block_1_block_1_2_Relu_output_0"
+            ],
+            "name": "_features_features_2_block_block_2_block_2_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                18
+            ],
+            "extras": {
+                "n_macc": 1655896,
+                "n_params": 2200,
+                "psize": 8800,
+                "rom_output": {
+                    "c_size": 275968,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        88,
+                        28
+                    ]
+                },
+                "rom_size": 8800
+            },
+            "id": 18,
+            "inputs": [
+                "_features_features_2_block_block_2_block_2_0_Conv_output_0"
+            ],
+            "name": "_features_features_3_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                19
+            ],
+            "extras": {
+                "n_macc": 68992,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 275968,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        88,
+                        28
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 19,
+            "inputs": [
+                "_features_features_3_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_3_block_block_0_block_0_2_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                20
+            ],
+            "extras": {
+                "n_macc": 621016,
+                "n_params": 880,
+                "psize": 3520,
+                "rom_output": {
+                    "c_size": 275968,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        88,
+                        28
+                    ]
+                },
+                "rom_size": 3520
+            },
+            "id": 20,
+            "inputs": [
+                "_features_features_3_block_block_0_block_0_2_Relu_output_0"
+            ],
+            "name": "_features_features_3_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                21
+            ],
+            "extras": {
+                "n_macc": 68992,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 275968,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        88,
+                        28
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 21,
+            "inputs": [
+                "_features_features_3_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_3_block_block_1_block_1_2_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                22
+            ],
+            "extras": {
+                "n_macc": 1655832,
+                "n_params": 2136,
+                "psize": 8544,
+                "rom_output": {
+                    "c_size": 75264,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        24,
+                        28
+                    ]
+                },
+                "rom_size": 8544
+            },
+            "id": 22,
+            "inputs": [
+                "_features_features_3_block_block_1_block_1_2_Relu_output_0"
+            ],
+            "name": "_features_features_3_block_block_2_block_2_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                23
+            ],
+            "extras": {
+                "n_macc": 18816,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 75264,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        24,
+                        28
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 23,
+            "inputs": [
+                "_features_features_3_block_block_2_block_2_0_Conv_output_0",
+                "_features_features_2_block_block_2_block_2_0_Conv_output_0"
+            ],
+            "name": "_features_features_3_Add_output_0",
+            "original": "Add",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                24
+            ],
+            "extras": {
+                "n_macc": 1806432,
+                "n_params": 2400,
+                "psize": 9600,
+                "rom_output": {
+                    "c_size": 301056,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        96,
+                        28
+                    ]
+                },
+                "rom_size": 9600
+            },
+            "id": 24,
+            "inputs": [
+                "_features_features_3_Add_output_0"
+            ],
+            "name": "_features_features_4_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                25
+            ],
+            "extras": {
+                "n_macc": 225792,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 301056,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        96,
+                        28
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 25,
+            "inputs": [
+                "_features_features_4_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_4_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                26
+            ],
+            "extras": {
+                "n_macc": 75264,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 301056,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        96,
+                        28
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 26,
+            "inputs": [
+                "_features_features_4_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_4_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_4_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                27
+            ],
+            "extras": {
+                "n_macc": 470496,
+                "n_params": 2496,
+                "psize": 9984,
+                "rom_output": {
+                    "c_size": 75264,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        96,
+                        14
+                    ]
+                },
+                "rom_size": 9984
+            },
+            "id": 27,
+            "inputs": [
+                "_features_features_4_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_4_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                28
+            ],
+            "extras": {
+                "n_macc": 56448,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 75264,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        96,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 28,
+            "inputs": [
+                "_features_features_4_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_4_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                29
+            ],
+            "extras": {
+                "n_macc": 18816,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 75264,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        96,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 29,
+            "inputs": [
+                "_features_features_4_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_4_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_4_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                30
+            ],
+            "extras": {
+                "n_macc": 18816,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 384,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        96,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 30,
+            "inputs": [
+                "_features_features_4_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_4_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                31
+            ],
+            "extras": {
+                "n_macc": 2328,
+                "n_params": 2328,
+                "psize": 9312,
+                "rom_output": {
+                    "c_size": 96,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        24,
+                        1
+                    ]
+                },
+                "rom_size": 9312
+            },
+            "id": 31,
+            "inputs": [
+                "_features_features_4_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_4_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                32
+            ],
+            "extras": {
+                "n_macc": 24,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 96,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        24,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 32,
+            "inputs": [
+                "_features_features_4_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_4_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                33
+            ],
+            "extras": {
+                "n_macc": 2400,
+                "n_params": 2400,
+                "psize": 9600,
+                "rom_output": {
+                    "c_size": 384,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        96,
+                        1
+                    ]
+                },
+                "rom_size": 9600
+            },
+            "id": 33,
+            "inputs": [
+                "_features_features_4_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_4_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                34
+            ],
+            "extras": {
+                "n_macc": 288,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 384,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        96,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 34,
+            "inputs": [
+                "_features_features_4_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_4_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                35
+            ],
+            "extras": {
+                "n_macc": 96,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 75264,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        96,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 35,
+            "inputs": [
+                "_features_features_4_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_4_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_4_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                36
+            ],
+            "extras": {
+                "n_macc": 752680,
+                "n_params": 3880,
+                "psize": 15520,
+                "rom_output": {
+                    "c_size": 31360,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        40,
+                        14
+                    ]
+                },
+                "rom_size": 15520
+            },
+            "id": 36,
+            "inputs": [
+                "_features_features_4_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_4_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                37
+            ],
+            "extras": {
+                "n_macc": 1881840,
+                "n_params": 9840,
+                "psize": 39360,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 39360
+            },
+            "id": 37,
+            "inputs": [
+                "_features_features_4_block_block_3_block_3_0_Conv_output_0"
+            ],
+            "name": "_features_features_5_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                38
+            ],
+            "extras": {
+                "n_macc": 141120,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 38,
+            "inputs": [
+                "_features_features_5_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_5_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                39
+            ],
+            "extras": {
+                "n_macc": 47040,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 39,
+            "inputs": [
+                "_features_features_5_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_5_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_5_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                40
+            ],
+            "extras": {
+                "n_macc": 1176240,
+                "n_params": 6240,
+                "psize": 24960,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 24960
+            },
+            "id": 40,
+            "inputs": [
+                "_features_features_5_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_5_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                41
+            ],
+            "extras": {
+                "n_macc": 141120,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 41,
+            "inputs": [
+                "_features_features_5_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_5_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                42
+            ],
+            "extras": {
+                "n_macc": 47040,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 42,
+            "inputs": [
+                "_features_features_5_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_5_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_5_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                43
+            ],
+            "extras": {
+                "n_macc": 47040,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 960,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        240,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 43,
+            "inputs": [
+                "_features_features_5_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_5_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                44
+            ],
+            "extras": {
+                "n_macc": 15424,
+                "n_params": 15424,
+                "psize": 61696,
+                "rom_output": {
+                    "c_size": 256,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        64,
+                        1
+                    ]
+                },
+                "rom_size": 61696
+            },
+            "id": 44,
+            "inputs": [
+                "_features_features_5_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_5_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                45
+            ],
+            "extras": {
+                "n_macc": 64,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 256,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        64,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 45,
+            "inputs": [
+                "_features_features_5_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_5_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                46
+            ],
+            "extras": {
+                "n_macc": 15600,
+                "n_params": 15600,
+                "psize": 62400,
+                "rom_output": {
+                    "c_size": 960,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        240,
+                        1
+                    ]
+                },
+                "rom_size": 62400
+            },
+            "id": 46,
+            "inputs": [
+                "_features_features_5_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_5_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                47
+            ],
+            "extras": {
+                "n_macc": 720,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 960,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        240,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 47,
+            "inputs": [
+                "_features_features_5_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_5_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                48
+            ],
+            "extras": {
+                "n_macc": 240,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 48,
+            "inputs": [
+                "_features_features_5_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_5_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_5_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                49
+            ],
+            "extras": {
+                "n_macc": 1881640,
+                "n_params": 9640,
+                "psize": 38560,
+                "rom_output": {
+                    "c_size": 31360,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        40,
+                        14
+                    ]
+                },
+                "rom_size": 38560
+            },
+            "id": 49,
+            "inputs": [
+                "_features_features_5_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_5_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                50
+            ],
+            "extras": {
+                "n_macc": 7840,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 31360,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        40,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 50,
+            "inputs": [
+                "_features_features_5_block_block_3_block_3_0_Conv_output_0",
+                "_features_features_4_block_block_3_block_3_0_Conv_output_0"
+            ],
+            "name": "_features_features_5_Add_output_0",
+            "original": "Add",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                51
+            ],
+            "extras": {
+                "n_macc": 1881840,
+                "n_params": 9840,
+                "psize": 39360,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 39360
+            },
+            "id": 51,
+            "inputs": [
+                "_features_features_5_Add_output_0"
+            ],
+            "name": "_features_features_6_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                52
+            ],
+            "extras": {
+                "n_macc": 141120,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 52,
+            "inputs": [
+                "_features_features_6_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_6_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                53
+            ],
+            "extras": {
+                "n_macc": 47040,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 53,
+            "inputs": [
+                "_features_features_6_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_6_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_6_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                54
+            ],
+            "extras": {
+                "n_macc": 1176240,
+                "n_params": 6240,
+                "psize": 24960,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 24960
+            },
+            "id": 54,
+            "inputs": [
+                "_features_features_6_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_6_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                55
+            ],
+            "extras": {
+                "n_macc": 141120,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 55,
+            "inputs": [
+                "_features_features_6_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_6_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                56
+            ],
+            "extras": {
+                "n_macc": 47040,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 56,
+            "inputs": [
+                "_features_features_6_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_6_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_6_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                57
+            ],
+            "extras": {
+                "n_macc": 47040,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 960,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        240,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 57,
+            "inputs": [
+                "_features_features_6_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_6_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                58
+            ],
+            "extras": {
+                "n_macc": 15424,
+                "n_params": 15424,
+                "psize": 61696,
+                "rom_output": {
+                    "c_size": 256,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        64,
+                        1
+                    ]
+                },
+                "rom_size": 61696
+            },
+            "id": 58,
+            "inputs": [
+                "_features_features_6_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_6_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                59
+            ],
+            "extras": {
+                "n_macc": 64,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 256,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        64,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 59,
+            "inputs": [
+                "_features_features_6_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_6_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                60
+            ],
+            "extras": {
+                "n_macc": 15600,
+                "n_params": 15600,
+                "psize": 62400,
+                "rom_output": {
+                    "c_size": 960,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        240,
+                        1
+                    ]
+                },
+                "rom_size": 62400
+            },
+            "id": 60,
+            "inputs": [
+                "_features_features_6_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_6_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                61
+            ],
+            "extras": {
+                "n_macc": 720,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 960,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        240,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 61,
+            "inputs": [
+                "_features_features_6_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_6_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                62
+            ],
+            "extras": {
+                "n_macc": 240,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 188160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        240,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 62,
+            "inputs": [
+                "_features_features_6_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_6_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_6_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                63
+            ],
+            "extras": {
+                "n_macc": 1881640,
+                "n_params": 9640,
+                "psize": 38560,
+                "rom_output": {
+                    "c_size": 31360,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        40,
+                        14
+                    ]
+                },
+                "rom_size": 38560
+            },
+            "id": 63,
+            "inputs": [
+                "_features_features_6_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_6_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                64
+            ],
+            "extras": {
+                "n_macc": 7840,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 31360,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        40,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 64,
+            "inputs": [
+                "_features_features_6_block_block_3_block_3_0_Conv_output_0",
+                "_features_features_5_Add_output_0"
+            ],
+            "name": "_features_features_6_Add_output_0",
+            "original": "Add",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                65
+            ],
+            "extras": {
+                "n_macc": 940920,
+                "n_params": 4920,
+                "psize": 19680,
+                "rom_output": {
+                    "c_size": 94080,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        120,
+                        14
+                    ]
+                },
+                "rom_size": 19680
+            },
+            "id": 65,
+            "inputs": [
+                "_features_features_6_Add_output_0"
+            ],
+            "name": "_features_features_7_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                66
+            ],
+            "extras": {
+                "n_macc": 70560,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 94080,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        120,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 66,
+            "inputs": [
+                "_features_features_7_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_7_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                67
+            ],
+            "extras": {
+                "n_macc": 23520,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 94080,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        120,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 67,
+            "inputs": [
+                "_features_features_7_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_7_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_7_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                68
+            ],
+            "extras": {
+                "n_macc": 588120,
+                "n_params": 3120,
+                "psize": 12480,
+                "rom_output": {
+                    "c_size": 94080,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        120,
+                        14
+                    ]
+                },
+                "rom_size": 12480
+            },
+            "id": 68,
+            "inputs": [
+                "_features_features_7_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_7_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                69
+            ],
+            "extras": {
+                "n_macc": 70560,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 94080,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        120,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 69,
+            "inputs": [
+                "_features_features_7_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_7_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                70
+            ],
+            "extras": {
+                "n_macc": 23520,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 94080,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        120,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 70,
+            "inputs": [
+                "_features_features_7_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_7_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_7_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                71
+            ],
+            "extras": {
+                "n_macc": 23520,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 480,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        120,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 71,
+            "inputs": [
+                "_features_features_7_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_7_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                72
+            ],
+            "extras": {
+                "n_macc": 3872,
+                "n_params": 3872,
+                "psize": 15488,
+                "rom_output": {
+                    "c_size": 128,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        32,
+                        1
+                    ]
+                },
+                "rom_size": 15488
+            },
+            "id": 72,
+            "inputs": [
+                "_features_features_7_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_7_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                73
+            ],
+            "extras": {
+                "n_macc": 32,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 128,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        32,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 73,
+            "inputs": [
+                "_features_features_7_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_7_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                74
+            ],
+            "extras": {
+                "n_macc": 3960,
+                "n_params": 3960,
+                "psize": 15840,
+                "rom_output": {
+                    "c_size": 480,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        120,
+                        1
+                    ]
+                },
+                "rom_size": 15840
+            },
+            "id": 74,
+            "inputs": [
+                "_features_features_7_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_7_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                75
+            ],
+            "extras": {
+                "n_macc": 360,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 480,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        120,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 75,
+            "inputs": [
+                "_features_features_7_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_7_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                76
+            ],
+            "extras": {
+                "n_macc": 120,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 94080,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        120,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 76,
+            "inputs": [
+                "_features_features_7_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_7_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_7_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                77
+            ],
+            "extras": {
+                "n_macc": 1129008,
+                "n_params": 5808,
+                "psize": 23232,
+                "rom_output": {
+                    "c_size": 37632,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        48,
+                        14
+                    ]
+                },
+                "rom_size": 23232
+            },
+            "id": 77,
+            "inputs": [
+                "_features_features_7_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_7_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                78
+            ],
+            "extras": {
+                "n_macc": 1354896,
+                "n_params": 7056,
+                "psize": 28224,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        144,
+                        14
+                    ]
+                },
+                "rom_size": 28224
+            },
+            "id": 78,
+            "inputs": [
+                "_features_features_7_block_block_3_block_3_0_Conv_output_0"
+            ],
+            "name": "_features_features_8_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                79
+            ],
+            "extras": {
+                "n_macc": 84672,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        144,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 79,
+            "inputs": [
+                "_features_features_8_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_8_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                80
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        144,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 80,
+            "inputs": [
+                "_features_features_8_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_8_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_8_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                81
+            ],
+            "extras": {
+                "n_macc": 705744,
+                "n_params": 3744,
+                "psize": 14976,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        144,
+                        14
+                    ]
+                },
+                "rom_size": 14976
+            },
+            "id": 81,
+            "inputs": [
+                "_features_features_8_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_8_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                82
+            ],
+            "extras": {
+                "n_macc": 84672,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        144,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 82,
+            "inputs": [
+                "_features_features_8_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_8_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                83
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        144,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 83,
+            "inputs": [
+                "_features_features_8_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_8_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_8_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                84
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 576,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        144,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 84,
+            "inputs": [
+                "_features_features_8_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_8_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                85
+            ],
+            "extras": {
+                "n_macc": 5800,
+                "n_params": 5800,
+                "psize": 23200,
+                "rom_output": {
+                    "c_size": 160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        40,
+                        1
+                    ]
+                },
+                "rom_size": 23200
+            },
+            "id": 85,
+            "inputs": [
+                "_features_features_8_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_8_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                86
+            ],
+            "extras": {
+                "n_macc": 40,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 160,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        40,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 86,
+            "inputs": [
+                "_features_features_8_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_8_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                87
+            ],
+            "extras": {
+                "n_macc": 5904,
+                "n_params": 5904,
+                "psize": 23616,
+                "rom_output": {
+                    "c_size": 576,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        144,
+                        1
+                    ]
+                },
+                "rom_size": 23616
+            },
+            "id": 87,
+            "inputs": [
+                "_features_features_8_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_8_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                88
+            ],
+            "extras": {
+                "n_macc": 432,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 576,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        144,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 88,
+            "inputs": [
+                "_features_features_8_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_8_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                89
+            ],
+            "extras": {
+                "n_macc": 144,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        144,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 89,
+            "inputs": [
+                "_features_features_8_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_8_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_8_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                90
+            ],
+            "extras": {
+                "n_macc": 1354800,
+                "n_params": 6960,
+                "psize": 27840,
+                "rom_output": {
+                    "c_size": 37632,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        48,
+                        14
+                    ]
+                },
+                "rom_size": 27840
+            },
+            "id": 90,
+            "inputs": [
+                "_features_features_8_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_8_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                91
+            ],
+            "extras": {
+                "n_macc": 9408,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 37632,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        48,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 91,
+            "inputs": [
+                "_features_features_8_block_block_3_block_3_0_Conv_output_0",
+                "_features_features_7_block_block_3_block_3_0_Conv_output_0"
+            ],
+            "name": "_features_features_8_Add_output_0",
+            "original": "Add",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                92
+            ],
+            "extras": {
+                "n_macc": 2709792,
+                "n_params": 14112,
+                "psize": 56448,
+                "rom_output": {
+                    "c_size": 225792,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        288,
+                        14
+                    ]
+                },
+                "rom_size": 56448
+            },
+            "id": 92,
+            "inputs": [
+                "_features_features_8_Add_output_0"
+            ],
+            "name": "_features_features_9_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                93
+            ],
+            "extras": {
+                "n_macc": 169344,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 225792,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        288,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 93,
+            "inputs": [
+                "_features_features_9_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_9_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                94
+            ],
+            "extras": {
+                "n_macc": 56448,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 225792,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        14,
+                        288,
+                        14
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 94,
+            "inputs": [
+                "_features_features_9_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_9_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_9_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                95
+            ],
+            "extras": {
+                "n_macc": 353088,
+                "n_params": 7488,
+                "psize": 29952,
+                "rom_output": {
+                    "c_size": 56448,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        288,
+                        7
+                    ]
+                },
+                "rom_size": 29952
+            },
+            "id": 95,
+            "inputs": [
+                "_features_features_9_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_9_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                96
+            ],
+            "extras": {
+                "n_macc": 42336,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 56448,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        288,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 96,
+            "inputs": [
+                "_features_features_9_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_9_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                97
+            ],
+            "extras": {
+                "n_macc": 14112,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 56448,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        288,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 97,
+            "inputs": [
+                "_features_features_9_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_9_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_9_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                98
+            ],
+            "extras": {
+                "n_macc": 14112,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 1152,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        288,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 98,
+            "inputs": [
+                "_features_features_9_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_9_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                99
+            ],
+            "extras": {
+                "n_macc": 20808,
+                "n_params": 20808,
+                "psize": 83232,
+                "rom_output": {
+                    "c_size": 288,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        72,
+                        1
+                    ]
+                },
+                "rom_size": 83232
+            },
+            "id": 99,
+            "inputs": [
+                "_features_features_9_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_9_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                100
+            ],
+            "extras": {
+                "n_macc": 72,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 288,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        72,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 100,
+            "inputs": [
+                "_features_features_9_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_9_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                101
+            ],
+            "extras": {
+                "n_macc": 21024,
+                "n_params": 21024,
+                "psize": 84096,
+                "rom_output": {
+                    "c_size": 1152,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        288,
+                        1
+                    ]
+                },
+                "rom_size": 84096
+            },
+            "id": 101,
+            "inputs": [
+                "_features_features_9_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_9_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                102
+            ],
+            "extras": {
+                "n_macc": 864,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 1152,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        288,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 102,
+            "inputs": [
+                "_features_features_9_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_9_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                103
+            ],
+            "extras": {
+                "n_macc": 288,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 56448,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        288,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 103,
+            "inputs": [
+                "_features_features_9_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_9_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_9_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                104
+            ],
+            "extras": {
+                "n_macc": 1354848,
+                "n_params": 27744,
+                "psize": 110976,
+                "rom_output": {
+                    "c_size": 18816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        96,
+                        7
+                    ]
+                },
+                "rom_size": 110976
+            },
+            "id": 104,
+            "inputs": [
+                "_features_features_9_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_9_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                105
+            ],
+            "extras": {
+                "n_macc": 2710080,
+                "n_params": 55872,
+                "psize": 223488,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 223488
+            },
+            "id": 105,
+            "inputs": [
+                "_features_features_9_block_block_3_block_3_0_Conv_output_0"
+            ],
+            "name": "_features_features_10_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                106
+            ],
+            "extras": {
+                "n_macc": 84672,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 106,
+            "inputs": [
+                "_features_features_10_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_10_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                107
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 107,
+            "inputs": [
+                "_features_features_10_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_10_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_10_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                108
+            ],
+            "extras": {
+                "n_macc": 706176,
+                "n_params": 14976,
+                "psize": 59904,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 59904
+            },
+            "id": 108,
+            "inputs": [
+                "_features_features_10_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_10_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                109
+            ],
+            "extras": {
+                "n_macc": 84672,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 109,
+            "inputs": [
+                "_features_features_10_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_10_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                110
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 110,
+            "inputs": [
+                "_features_features_10_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_10_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_10_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                111
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 2304,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        576,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 111,
+            "inputs": [
+                "_features_features_10_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_10_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                112
+            ],
+            "extras": {
+                "n_macc": 83088,
+                "n_params": 83088,
+                "psize": 332352,
+                "rom_output": {
+                    "c_size": 576,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        144,
+                        1
+                    ]
+                },
+                "rom_size": 332352
+            },
+            "id": 112,
+            "inputs": [
+                "_features_features_10_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_10_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                113
+            ],
+            "extras": {
+                "n_macc": 144,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 576,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        144,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 113,
+            "inputs": [
+                "_features_features_10_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_10_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                114
+            ],
+            "extras": {
+                "n_macc": 83520,
+                "n_params": 83520,
+                "psize": 334080,
+                "rom_output": {
+                    "c_size": 2304,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        576,
+                        1
+                    ]
+                },
+                "rom_size": 334080
+            },
+            "id": 114,
+            "inputs": [
+                "_features_features_10_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_10_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                115
+            ],
+            "extras": {
+                "n_macc": 1728,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 2304,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        576,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 115,
+            "inputs": [
+                "_features_features_10_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_10_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                116
+            ],
+            "extras": {
+                "n_macc": 576,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 116,
+            "inputs": [
+                "_features_features_10_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_10_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_10_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                117
+            ],
+            "extras": {
+                "n_macc": 2709600,
+                "n_params": 55392,
+                "psize": 221568,
+                "rom_output": {
+                    "c_size": 18816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        96,
+                        7
+                    ]
+                },
+                "rom_size": 221568
+            },
+            "id": 117,
+            "inputs": [
+                "_features_features_10_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_10_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                118
+            ],
+            "extras": {
+                "n_macc": 4704,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 18816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        96,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 118,
+            "inputs": [
+                "_features_features_10_block_block_3_block_3_0_Conv_output_0",
+                "_features_features_9_block_block_3_block_3_0_Conv_output_0"
+            ],
+            "name": "_features_features_10_Add_output_0",
+            "original": "Add",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                119
+            ],
+            "extras": {
+                "n_macc": 2710080,
+                "n_params": 55872,
+                "psize": 223488,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 223488
+            },
+            "id": 119,
+            "inputs": [
+                "_features_features_10_Add_output_0"
+            ],
+            "name": "_features_features_11_block_block_0_block_0_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                120
+            ],
+            "extras": {
+                "n_macc": 84672,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 120,
+            "inputs": [
+                "_features_features_11_block_block_0_block_0_0_Conv_output_0"
+            ],
+            "name": "_features_features_11_block_block_0_block_0_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                121
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 121,
+            "inputs": [
+                "_features_features_11_block_block_0_block_0_0_Conv_output_0",
+                "_features_features_11_block_block_0_block_0_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_11_block_block_0_block_0_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                122
+            ],
+            "extras": {
+                "n_macc": 706176,
+                "n_params": 14976,
+                "psize": 59904,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 59904
+            },
+            "id": 122,
+            "inputs": [
+                "_features_features_11_block_block_0_block_0_2_Mul_output_0"
+            ],
+            "name": "_features_features_11_block_block_1_block_1_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                123
+            ],
+            "extras": {
+                "n_macc": 84672,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 123,
+            "inputs": [
+                "_features_features_11_block_block_1_block_1_0_Conv_output_0"
+            ],
+            "name": "_features_features_11_block_block_1_block_1_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                124
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 124,
+            "inputs": [
+                "_features_features_11_block_block_1_block_1_0_Conv_output_0",
+                "_features_features_11_block_block_1_block_1_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_11_block_block_1_block_1_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                125
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 2304,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        576,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 125,
+            "inputs": [
+                "_features_features_11_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_11_block_block_2_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [
+                126
+            ],
+            "extras": {
+                "n_macc": 83088,
+                "n_params": 83088,
+                "psize": 332352,
+                "rom_output": {
+                    "c_size": 576,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        144,
+                        1
+                    ]
+                },
+                "rom_size": 332352
+            },
+            "id": 126,
+            "inputs": [
+                "_features_features_11_block_block_2_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_features_features_11_block_block_2_fc1_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                127
+            ],
+            "extras": {
+                "n_macc": 144,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 576,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        144,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 127,
+            "inputs": [
+                "_features_features_11_block_block_2_fc1_Conv_output_0"
+            ],
+            "name": "_features_features_11_block_block_2_activation_Relu_output_0",
+            "original": "Relu",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                128
+            ],
+            "extras": {
+                "n_macc": 83520,
+                "n_params": 83520,
+                "psize": 334080,
+                "rom_output": {
+                    "c_size": 2304,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        576,
+                        1
+                    ]
+                },
+                "rom_size": 334080
+            },
+            "id": 128,
+            "inputs": [
+                "_features_features_11_block_block_2_activation_Relu_output_0"
+            ],
+            "name": "_features_features_11_block_block_2_fc2_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                129
+            ],
+            "extras": {
+                "n_macc": 1728,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 2304,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        576,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 129,
+            "inputs": [
+                "_features_features_11_block_block_2_fc2_Conv_output_0"
+            ],
+            "name": "_features_features_11_block_block_2_scale_activation_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                130
+            ],
+            "extras": {
+                "n_macc": 576,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 130,
+            "inputs": [
+                "_features_features_11_block_block_2_scale_activation_HardSigmoid_output_0",
+                "_features_features_11_block_block_1_block_1_2_Mul_output_0"
+            ],
+            "name": "_features_features_11_block_block_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                131
+            ],
+            "extras": {
+                "n_macc": 2709600,
+                "n_params": 55392,
+                "psize": 221568,
+                "rom_output": {
+                    "c_size": 18816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        96,
+                        7
+                    ]
+                },
+                "rom_size": 221568
+            },
+            "id": 131,
+            "inputs": [
+                "_features_features_11_block_block_2_Mul_output_0"
+            ],
+            "name": "_features_features_11_block_block_3_block_3_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                132
+            ],
+            "extras": {
+                "n_macc": 4704,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 18816,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        96,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 132,
+            "inputs": [
+                "_features_features_11_block_block_3_block_3_0_Conv_output_0",
+                "_features_features_10_Add_output_0"
+            ],
+            "name": "_features_features_11_Add_output_0",
+            "original": "Add",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                133
+            ],
+            "extras": {
+                "n_macc": 2710080,
+                "n_params": 55872,
+                "psize": 223488,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 223488
+            },
+            "id": 133,
+            "inputs": [
+                "_features_features_11_Add_output_0"
+            ],
+            "name": "_features_features_12_features_12_0_Conv_output_0",
+            "original": "Conv",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [
+                134
+            ],
+            "extras": {
+                "n_macc": 84672,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 134,
+            "inputs": [
+                "_features_features_12_features_12_0_Conv_output_0"
+            ],
+            "name": "_features_features_12_features_12_2_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                135
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 112896,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        7,
+                        576,
+                        7
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 135,
+            "inputs": [
+                "_features_features_12_features_12_0_Conv_output_0",
+                "_features_features_12_features_12_2_HardSigmoid_output_0"
+            ],
+            "name": "_features_features_12_features_12_2_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [
+                136
+            ],
+            "extras": {
+                "n_macc": 28224,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 2304,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1,
+                        576,
+                        1
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 136,
+            "inputs": [
+                "_features_features_12_features_12_2_Mul_output_0"
+            ],
+            "name": "_avgpool_GlobalAveragePool_output_0",
+            "original": "GlobalAveragePool",
+            "type": "Pool"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 0,
+                "psize": 0,
+                "rom_size": 0
+            },
+            "id": 137,
+            "inputs": [
+                "_avgpool_GlobalAveragePool_output_0"
+            ],
+            "name": "_Flatten_output_0",
+            "original": "Flatten",
+            "type": "Reshape"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 590848,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 4096,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1024
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 138,
+            "inputs": [
+                "_Flatten_output_0",
+                "classifier_0_weight",
+                "classifier_0_bias"
+            ],
+            "name": "_classifier_classifier_0_Gemm_output_0",
+            "original": "Gemm",
+            "type": "Gemm"
+        },
+        {
+            "c_id": [
+                138
+            ],
+            "extras": {
+                "n_macc": 3072,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 4096,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1024
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 139,
+            "inputs": [
+                "_classifier_classifier_0_Gemm_output_0"
+            ],
+            "name": "_classifier_classifier_1_HardSigmoid_output_0",
+            "original": "HardSigmoid",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                139
+            ],
+            "extras": {
+                "n_macc": 1024,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 4096,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        1024
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 140,
+            "inputs": [
+                "_classifier_classifier_0_Gemm_output_0",
+                "_classifier_classifier_1_HardSigmoid_output_0"
+            ],
+            "name": "_classifier_classifier_1_Mul_output_0",
+            "original": "Mul",
+            "type": "Eltwise"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 2050,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 8,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        2
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 141,
+            "inputs": [
+                "_classifier_classifier_1_Mul_output_0",
+                "classifier_3_weight",
+                "classifier_3_bias"
+            ],
+            "name": "output",
+            "original": "Gemm",
+            "type": "Gemm"
+        }
+    ],
+    "model_files": [
+        "D:\\python_project\\vision-main\\torchvision\\models\\flame_detectionV3.onnx"
+    ],
+    "model_n_params": 1513850,
+    "model_name": "flame_detectionV3",
+    "model_size": 6055400,
+    "model_type": "onnx",
+    "name": "network",
+    "outputs": [
+        "output"
+    ],
+    "ram_io_size": [
+        0,
+        0
+    ],
+    "ram_size": 1605632,
+    "report_version": 1.1,
+    "rom_cfact": 1.0,
+    "rom_heap_inspector": 2048,
+    "rom_inputs": [
+        {
+            "c_size": 602112,
+            "c_type": "float",
+            "name": "input"
+        }
+    ],
+    "rom_n_macc": 59617314,
+    "rom_outputs": [
+        {
+            "c_size": 8,
+            "c_type": "float",
+            "name": "output"
+        }
+    ],
+    "rom_size": 3991080,
+    "strategy": "",
+    "tools_api_version": "1.0.0-19894",
+    "tools_version": "1.0.0-19894",
+    "val_error": -1.0,
+    "val_error_desc": "None (None) #-1",
+    "val_metrics": []
+}
